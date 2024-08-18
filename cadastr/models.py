@@ -12,7 +12,7 @@ class CadastrRecord(models.Model):
         'cadastral_number': {'required': True},
         'latitude': {'required': True},
         'longitude': {'required': True},
-        }
+    }
 
     def __str__(self):
         return self.cadastral_number
