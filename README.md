@@ -33,7 +33,7 @@ djangorestframework = "^3.15.2"<br>
 1. Необходимо иметь установленный Docker<br>
 2. Клонировать репозиторий: <b>git clone git@github.com:Andrey-Barinov/cadastr_api_test_case.git</b><br>
 3. Перейти в директорию: <b>cd cadastr_api_test_case/</b><br>
-4. Собрать Docker-образ: <b>docker build -t cadastr_api</b><br>
+4. Собрать Docker-образ: <b>docker build . -t cadastr_api</b><br>
 5. Запустить сервер: <b>docker run -p 8000:8000 cadastr_api</b><br>
 6. Зайти в браузер и перейти по адресу <b>http://localhost:8000</b><br><br>
 <b>Примечание:</b><br> 
